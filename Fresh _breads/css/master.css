@@ -784,6 +784,13 @@ header .icon i:hover {
     .sec6 .container .cards6 {
         grid-template-columns: repeat(1, 1fr);
     }
+    .contact .sign-up form .try1  {
+    flex-direction: column;
+    }
+    .contact .sign-up form .try1 .info1, 
+.contact .sign-up form .try1 .info2 {
+    width: 100%;
+}
 }
 @media (min-width:768px) and (max-width:991px) {
     .sec6 .container .cards6 {
